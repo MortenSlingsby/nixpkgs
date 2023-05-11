@@ -2428,6 +2428,8 @@ self: super: with self; {
 
   deltachat = callPackage ../development/python-modules/deltachat { };
 
+  deltalake = callPackage ../development/python-modules/deltalake { };
+
   deluge-client = callPackage ../development/python-modules/deluge-client { };
 
   demetriek = callPackage ../development/python-modules/demetriek { };
